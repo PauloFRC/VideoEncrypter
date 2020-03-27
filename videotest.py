@@ -56,7 +56,7 @@ def codificar(link_video_principal, link_video_distrator, tempo_de_video=False):
 
 
 if __name__ == '__main__':
-    link_video_principal = 'haikyuu.mp4'
-    link_video_distrator = 'codegeass.mp4'
+    link_video_principal = 'filme.mp4'
+    link_video_distrator = 'distrator.mp4'
     tempo_video_principal = 100  #segundos
     codificar(link_video_principal, link_video_distrator)
