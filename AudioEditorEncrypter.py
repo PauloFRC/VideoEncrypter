@@ -17,7 +17,6 @@ def create_audio_files(video_link, audio_duration, folder_name='audios'):
                                    duration=round((audio_clip.duration % audio_duration), 2))
         video_clip = video_clip.set_audio(audio)
         video_clip.write_videofile(folder_name+'/output' + str(counter) + '.mp4', fps=24)
-    print(counter)
 
 
 if __name__ == '__main__':
